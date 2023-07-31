@@ -110,6 +110,9 @@ $this->CI->dbug->event('Event Description', 'event-name', 'start', 'c', 'blue');
 $this->CI->dbug->event('Event Description', 'event-name', 'end', 'c', 'blue'); // End Event
 ```
 
+## Credits
+The Clockwork Codeigniter Integration is built and maintained by [Axorage](https://github.com/Axorage). It is based on [Clockwork](https://github.com/itsgoingd/clockwork), an open-source project developed by [itsgoingd](https://github.com/itsgoingd) and various contributors, and [CodeIgniter](https://www.codeigniter.com/), an open-source PHP framework developed by the Codeigniter Foundation and its contributors. We express our gratitude to these communities for their valuable work and contributions.
+
 ## Contributing
 
 If you find any issues with the integration or have improvements to suggest, we welcome contributions! Feel free to open issues, submit pull requests, or provide feedback to help enhance the Clockwork Codeigniter Integration.
