@@ -47,9 +47,9 @@ This repository provides a straightforward integration of Clockwork, a robust PH
 
    ```php
    // Clockwork Debugger API Endpoint
-   $route['__clockwork/(:any)/(:any)/(:any)'] = "clockwork/api_clockwork/index/{$1}/{$2}/{$3}";
-   $route['__clockwork/(:any)/(:any)'] = "clockwork/api_clockwork/index/{$1}/{$2}";
-   $route['__clockwork/(:any)'] = "clockwork/api_clockwork/index/{$1}";
+   $route['__clockwork/(:any)/(:any)/(:any)'] = "clockwork/api_clockwork/index/$1/$2/$3";
+   $route['__clockwork/(:any)/(:any)'] = "clockwork/api_clockwork/index/$1/$2";
+   $route['__clockwork/(:any)'] = "clockwork/api_clockwork/index/$1";
    // Clockwork Web UI
    $route['__clockwork'] = "clockwork/clockworkweb/index";
    ```
