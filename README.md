@@ -86,7 +86,7 @@ function log( string $message, $value, $level = 'c', $type = 'info' )
 ```
 Use the following line in your application to log variables:
 ```php
-$this->CI->dbug->log('Message', $variable, 'c', 'info');
+$this->CI->debug->log('Message', $variable, 'c', 'info');
 ```
 
 Event() function documentation:
@@ -103,11 +103,11 @@ Event() function documentation:
  */
 function event( string $label, string $name, string $action, string $level = 'c', string $color = 'blue' )
 ```
-Use the following line in your application to log events:
+Use the following lines in your application to log events:
 ```php
-$this->CI->dbug->event('Event Description', 'event-name', 'start', 'c', 'blue'); // Start Event
+$this->CI->debug->event('Event Description', 'event-name', 'start', 'c', 'blue'); // Start Event
 ...
-$this->CI->dbug->event('Event Description', 'event-name', 'end', 'c', 'blue'); // End Event
+$this->CI->debug->event('Event Description', 'event-name', 'end', 'c', 'blue'); // End Event
 ```
 
 ## Credits
